@@ -4,7 +4,9 @@
 #  }
 #end
 
-include_recipe "blackbox"
+#include_recipe "blackbox"
+include_recipe "lp_sequelize_config"
+
 # uncomment to deny access to /log, /config, and .git directories as well as any .yml files
 # include_recipe "deny-directories"
 
